@@ -1,0 +1,45 @@
+.menu {
+    /* width: 250px; */
+    height: 900px;
+}
+
+.menu_icon {
+    width: 22px;
+    height: 22px;
+
+    & img {
+        object-fit: contain;
+    }
+}
+
+.menu_btn button {
+    width: 225px;
+    height: 52px;
+}
+
+.pp img {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+/* HoME */
+
+.home {
+    width: 599px;
+}
+
+.home_icon {
+    width: 20px;
+    height: 20px;
+}
+
+.post-img {
+    width: 506px;
+    height: 283.5px;
+
+    & img {
+        width: 506px;
+        height: 283.5px;
+    }
+}

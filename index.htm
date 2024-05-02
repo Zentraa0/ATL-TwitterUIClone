@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter UI Clone</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="black">
+    <main class="d-flex container">
+        <section class="menu pos-fix pt-4 pr-12 pl-12 clr-text d-flex column between pos-st">
+            <div class="fw-700 f-19 lnh-23 mb-16">
+                <div class="mb-8 pt-8">
+                    <button><img src="./assets/img/twitterLogo.svg" alt="Twitter Logo"></button>
+                </div>
+                <div class="p-12 d-flex a-center">
+                    <div class="mr-20 menu_icon">
+                        <img src="./assets/img/home.svg" alt="home">
+                    </div>
+                    <h3>Home</h3>
+                </div>
+                <div class="p-12 d-flex a-center">
+                    <div class="mr-20 menu_icon">
+                        <img src="./assets/img/explore.svg" alt="home">
+                    </div>
+                    <h3>Explore</h3>
+                </div>
+                <div class="p-12 d-flex a-center">
+                    <div class="mr-20 menu_icon">
+                        <img src="./assets/img/notifications.svg" alt="home">
+                    </div>
+                    <h3>Notifications</h3>
+                </div>
+                <div class="p-12 d-flex a-center">
+                    <div class="mr-20 menu_icon">
+                        <img src="./assets/img/messages.svg" alt="home">
+                    </div>
+                    <h3>Messages</h3>
+                </div>
+                <div class="p-12 d-flex a-center">
+                    <div class="mr-20 menu_icon">
+                        <img src="./assets/img/bookmarks.svg" alt="home">
+                    </div>
+                    <h3>Bookmarks</h3>
+                </div>
+                <div class="p-12 d-flex a-center">
+                    <div class="mr-20 menu_icon">
+                        <img src="./assets/img/lists.svg" alt="home">
+                    </div>
+                    <h3>Lists</h3>
+                </div>
+                <div class="p-12 d-flex a-center">
+                    <div class="mr-20 menu_icon">
+                        <img src="./assets/img/profile.svg" alt="home">
+                    </div>
+                    <h3>Profile</h3>
+                </div>
+                <div class="p-12 d-flex a-center">
+                    <div class="mr-20 menu_icon">
+                        <img src="./assets/img/more.svg" alt="home">
+                    </div>
+                    <h3>More</h3>
+                </div>
+                <div class="menu_btn mt-16">
+                    <button class="btn rad-52 fw-700 f-17 lnh-20">Tweet</button>
+                </div>
+            </div>
+
+            <div>
+                <div class="d-flex mb-16">
+                    <div class="pp mr-12">
+                        <img src="./assets/img/pp.png" alt="">
+                    </div>
+                    <div style="width: 150px;" class="d-flex between">
+                        <div>
+                            <div class="d-flex">
+                                <h2 class="mr-2">Bradley Ortiz</h2>
+                                <div class="menu_icon">
+                                    <img class="" src="./assets/img/lock.svg" alt="">
+                                </div>
+                            </div>
+                            <p class="gray">@bradley_</p>
+                        </div>
+                        <div class="d-flex a-center">
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="home border clr-text">
+            <div class="brd-btm">
+                <div class="d-flex between pt-14 pb-14 a-center pl-16 pr-16">
+                    <h1 class="fw-700 f-20 lnh-23">Home</h1>
+                    <div class="home_icon">
+                        <img src="./assets/img/stars.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="brd-btm">
+                <div class="d-flex  pt-4 p-14  pl-16 pr-16">
+                    <div class="pp mr-12">
+                        <img src="./assets/img/pp.png" alt="">
+                    </div>
+                    <div class="mt-16">
+                        <input class="clr-text fw-400 f-20 lnh-23 mb-40" type="text" placeholder="What’s happening?">
+                        <div style="width: 500px;" class="d-flex between a-center">
+                            <div class="d-flex mb-16 grow">
+                                <div class="home_icon mr-12">
+                                    <img src="./assets/img/galery.svg" alt="">
+                                </div>
+                                <div class="home_icon mr-12">
+                                    <img src="./assets/img/gif.svg" alt="">
+                                </div>
+                                <div class="home_icon mr-12">
+                                    <img src="./assets/img/rank.svg" alt="">
+                                </div>
+                                <div class="home_icon mr-12">
+                                    <img src="./assets/img/smile.svg" alt="">
+                                </div>
+                                <div class="home_icon mr-12">
+                                    <img src="./assets/img/schedule.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="mb-8">
+                                <button
+                                    class="btn rad-36 pr-16 pl-16 pt-9 pb-9 opacity-05 f-15 fw-700 lnh-18">Tweet</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="brd-btm">
+                <div class="d-flex  pt-12 pb-12  pl-16 pr-16">
+                    <div class="pp mr-12">
+                        <img src="./assets/img/cnn.png" alt="CNN">
+                    </div>
+                    <div>
+                        <div class="d-flex a-center mb-5 f-15 lnh-18">
+                            <div class="d-flex a-center mr-4">
+                                <h2 class="mr-2 fw-700">CNN</h2>
+                                <img class="wh-20" src="./assets/img/verifyed.svg" alt="">
+                            </div>
+                            <div class="d-flex fw-300 gray">
+                                <p class="mr-2">@CNN</p>
+                                <p>. 7m</p>
+                            </div>
+                        </div>
+                        <div class="mb-12 fw-400 f-15 lnh-18">
+                            President Joe Biden touted a new agreement reached with the European Union to ease Trump-era
+                            tariffs on aluminum and steel as a "major breakthrough" that would serve to both strengthen
+                            the US steel industry and combat the global climate crisis.
+                        </div>
+                        <div style="width: 500px;" class="d-flex between gray f-13">
+                            <div class="d-flex p-7 a-center">
+                                <img class="mr-12 wh-20" src="./assets/img/comment.svg" alt="">
+                                <p>57</p>
+                            </div>
+                            <div class="d-flex p-7 a-center">
+                                <img class="mr-12 wh-20" src="./assets/img/retweet.svg" alt="">
+                                <p>144</p>
+                            </div>
+                            <div class="d-flex p-7 a-center">
+                                <img class="mr-12 wh-20" src="./assets/img/like.svg" alt="">
+                                <p>185</p>
+                            </div>
+                            <div class="d-flex p-7 mr-92">
+                                <img class=" wh-20" src="./assets/img/share.svg" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="brd-btm">
+                <div class="d-flex  pt-12 pb-12  pl-16 pr-16">
+                    <div class="pp mr-12">
+                        <img src="./assets/img/thenewyorktime.png" alt="CNN">
+                    </div>
+                    <div>
+                        <div class="d-flex a-center mb-5 f-15 lnh-18">
+                            <div class="d-flex a-center mr-4">
+                                <h2 class="mr-2 fw-700">The New York Times</h2>
+                                <img class="wh-20" src="./assets/img/verifyed.svg" alt="">
+                            </div>
+                            <div class="d-flex fw-300 gray">
+                                <p class="mr-2">@nytimes</p>
+                                <p>. 2m</p>
+                            </div>
+                        </div>
+                        <div class="mb-12 fw-400 f-15 lnh-18">
+                            Gardening boomed during the pandemic. Six Black writers share how it has helped them
+                            re-establish, and reimagine, a connection to cultivation and the land
+                        </div>
+                        <div class="mb-12 border rad-36   post-img">
+                            <img class="rad-36" src="./assets/img/post1.png" alt="">
+                        </div>
+                        <div style="width: 500px;" class="d-flex between gray f-13">
+                            <div class="d-flex p-7 a-center">
+                                <img class="mr-12 wh-20" src="./assets/img/comment.svg" alt="">
+                                <p>57</p>
+                            </div>
+                            <div class="d-flex p-7 a-center">
+                                <img class="mr-12 wh-20" src="./assets/img/retweet.svg" alt="">
+                                <p>144</p>
+                            </div>
+                            <div class="d-flex p-7 a-center">
+                                <img class="mr-12 wh-20" src="./assets/img/like.svg" alt="">
+                                <p>185</p>
+                            </div>
+                            <div class="d-flex p-7 mr-92">
+                                <img class=" wh-20" src="./assets/img/share.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="brd-btm">
+                <div class="d-flex  pt-12 pb-12  pl-16 pr-16">
+                    <div class="pp mr-12">
+                        <img src="./assets/img/twitter.png" alt="CNN">
+                    </div>
+                    <div>
+                        <div class="d-flex a-center mb-5 f-15 lnh-18">
+                            <div class="d-flex a-center mr-4">
+                                <h2 class="mr-2 fw-700">CNN</h2>
+                                <img class="wh-20" src="./assets/img/verifyed.svg" alt="">
+                            </div>
+                            <div class="d-flex fw-300 gray">
+                                <p class="mr-2">@Twitter</p>
+                                <p>. Oct 29</p>
+                            </div>
+                        </div>
+                        <div class="mb-12 fw-400 f-15 lnh-18">
+                            BIG NEWS lol jk still Twitter
+                        </div>
+                        <div style="width: 500px;" class="d-flex between gray f-13">
+                            <div class="d-flex p-7 a-center">
+                                <img class="mr-12 wh-20" src="./assets/img/comment.svg" alt="">
+                                <p>57</p>
+                            </div>
+                            <div class="d-flex p-7 a-center">
+                                <img class="mr-12 wh-20" src="./assets/img/retweet.svg" alt="">
+                                <p>144</p>
+                            </div>
+                            <div class="d-flex p-7 a-center">
+                                <img class="mr-12 wh-20" src="./assets/img/like.svg" alt="">
+                                <p>185</p>
+                            </div>
+                            <div class="d-flex p-7 mr-92">
+                                <img class=" wh-20" src="./assets/img/share.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="brd-btm">
+                <div class="d-flex  pt-12 pb-12  pl-16 pr-16">
+                    <div class="pp mr-12">
+                        <img src="./assets/img/thenewyorktime.png" alt="CNN">
+                    </div>
+                    <div>
+                        <div class="d-flex a-center mb-5 f-15 lnh-18">
+                            <div class="d-flex a-center mr-4">
+                                <h2 class="mr-2 fw-700">The New York Times</h2>
+                                <img class="wh-20" src="./assets/img/verifyed.svg" alt="">
+                            </div>
+                            <div class="d-flex fw-300 gray">
+                                <p class="mr-2">@nytimes</p>
+                                <p>. 2m</p>
+                            </div>
+                        </div>
+                        <div class="mb-12 fw-400 f-15 lnh-18">
+                            Gardening boomed during the pandemic. Six Black writers share how it has helped them
+                            re-establish, and reimagine, a connection to cultivation and the land
+                        </div>
+                        <div class="mb-12 border rad-36   post-img">
+                            <img class="rad-36" src="./assets/img/post1.png" alt="">
+                        </div>
+                        <div style="width: 500px;" class="d-flex between gray f-13">
+                            <div class="d-flex p-7 a-center">
+                                <img class="mr-12 wh-20" src="./assets/img/comment.svg" alt="">
+                                <p>57</p>
+                            </div>
+                            <div class="d-flex p-7 a-center">
+                                <img class="mr-12 wh-20" src="./assets/img/retweet.svg" alt="">
+                                <p>144</p>
+                            </div>
+                            <div class="d-flex p-7 a-center">
+                                <img class="mr-12 wh-20" src="./assets/img/like.svg" alt="">
+                                <p>185</p>
+                            </div>
+                            <div class="d-flex p-7 mr-92">
+                                <img class=" wh-20" src="./assets/img/share.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="brd-btm">
+                <div class="d-flex  pt-12 pb-12  pl-16 pr-16">
+                    <div class="pp mr-12">
+                        <img src="./assets/img/twitter.png" alt="CNN">
+                    </div>
+                    <div>
+                        <div class="d-flex a-center mb-5 f-15 lnh-18">
+                            <div class="d-flex a-center mr-4">
+                                <h2 class="mr-2 fw-700">CNN</h2>
+                                <img class="wh-20" src="./assets/img/verifyed.svg" alt="">
+                            </div>
+                            <div class="d-flex fw-300 gray">
+                                <p class="mr-2">@Twitter</p>
+                                <p>. Oct 29</p>
+                            </div>
+                        </div>
+                        <div class="mb-12 fw-400 f-15 lnh-18">
+                            BIG NEWS lol jk still Twitter
+                        </div>
+                        <div style="width: 500px;" class="d-flex between gray f-13">
+                            <div class="d-flex p-7 a-center">
+                                <img class="mr-12 wh-20" src="./assets/img/comment.svg" alt="">
+                                <p>57</p>
+                            </div>
+                            <div class="d-flex p-7 a-center">
+                                <img class="mr-12 wh-20" src="./assets/img/retweet.svg" alt="">
+                                <p>144</p>
+                            </div>
+                            <div class="d-flex p-7 a-center">
+                                <img class="mr-12 wh-20" src="./assets/img/like.svg" alt="">
+                                <p>185</p>
+                            </div>
+                            <div class="d-flex p-7 mr-92">
+                                <img class=" wh-20" src="./assets/img/share.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="brd-btm">
+                <div class="d-flex  pt-12 pb-12  pl-16 pr-16">
+                    <div class="pp mr-12">
+                        <img src="./assets/img/thenewyorktime.png" alt="CNN">
+                    </div>
+                    <div>
+                        <div class="d-flex a-center mb-5 f-15 lnh-18">
+                            <div class="d-flex a-center mr-4">
+                                <h2 class="mr-2 fw-700">The New York Times</h2>
+                                <img class="wh-20" src="./assets/img/verifyed.svg" alt="">
+                            </div>
+                            <div class="d-flex fw-300 gray">
+                                <p class="mr-2">@nytimes</p>
+                                <p>. 2m</p>
+                            </div>
+                        </div>
+                        <div class="mb-12 fw-400 f-15 lnh-18">
+                            Gardening boomed during the pandemic. Six Black writers share how it has helped them
+                            re-establish, and reimagine, a connection to cultivation and the land
+                        </div>
+                        <div class="mb-12 border rad-36   post-img">
+                            <img class="rad-36" src="./assets/img/post1.png" alt="">
+                        </div>
+                        <div style="width: 500px;" class="d-flex between gray f-13">
+                            <div class="d-flex p-7 a-center">
+                                <img class="mr-12 wh-20" src="./assets/img/comment.svg" alt="">
+                                <p>57</p>
+                            </div>
+                            <div class="d-flex p-7 a-center">
+                                <img class="mr-12 wh-20" src="./assets/img/retweet.svg" alt="">
+                                <p>144</p>
+                            </div>
+                            <div class="d-flex p-7 a-center">
+                                <img class="mr-12 wh-20" src="./assets/img/like.svg" alt="">
+                                <p>185</p>
+                            </div>
+                            <div class="d-flex p-7 mr-92">
+                                <img class=" wh-20" src="./assets/img/share.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="brd-btm">
+                <div class="d-flex  pt-12 pb-12  pl-16 pr-16">
+                    <div class="pp mr-12">
+                        <img src="./assets/img/twitter.png" alt="CNN">
+                    </div>
+                    <div>
+                        <div class="d-flex a-center mb-5 f-15 lnh-18">
+                            <div class="d-flex a-center mr-4">
+                                <h2 class="mr-2 fw-700">CNN</h2>
+                                <img class="wh-20" src="./assets/img/verifyed.svg" alt="">
+                            </div>
+                            <div class="d-flex fw-300 gray">
+                                <p class="mr-2">@Twitter</p>
+                                <p>. Oct 29</p>
+                            </div>
+                        </div>
+                        <div class="mb-12 fw-400 f-15 lnh-18">
+                            BIG NEWS lol jk still Twitter
+                        </div>
+                        <div style="width: 500px;" class="d-flex between gray f-13">
+                            <div class="d-flex p-7 a-center">
+                                <img class="mr-12 wh-20" src="./assets/img/comment.svg" alt="">
+                                <p>57</p>
+                            </div>
+                            <div class="d-flex p-7 a-center">
+                                <img class="mr-12 wh-20" src="./assets/img/retweet.svg" alt="">
+                                <p>144</p>
+                            </div>
+                            <div class="d-flex p-7 a-center">
+                                <img class="mr-12 wh-20" src="./assets/img/like.svg" alt="">
+                                <p>185</p>
+                            </div>
+                            <div class="d-flex p-7 mr-92">
+                                <img class=" wh-20" src="./assets/img/share.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class=" clr-text pl-16">
+            <div style="height: 42px;" class="mt-6 mb-12 rad-42 a-center bg-clr p-12 d-flex">
+                <div class="home_icon mr-20">
+                    <img src="./assets/img/search.svg" alt="">
+                </div>
+                <div>
+                    <input class="clr-text f-15 lnh-18 fw-400" type="text" placeholder="Serach Twitter">
+                </div>
+            </div>
+            <div style="height: 395px;" class="bg-clr rad-15">
+                <div class="d-flex between p-12">
+                    <div class="fw-700 f-19 lnh-23">
+                        <h2>Trends for you</h2>
+                    </div>
+                    <div>
+                        <img class="home_icon" src="./assets/img/settings.svg" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex between a-center"> 
+                        <div class="p-12">
+                            <p class="f-13 fw-400 lnh-18 gray">Trending in Turkey</p>
+                            <p class="f-15 fw-700 lnh-18 ">#SQUID</p>
+                            <p class="f-13 fw-400 lnh-18 gray">2,066 Tweets</p>
+                        </div>
+                        <div class="p-12 gray">
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                    </div>
+                    <div class="d-flex between a-center"> 
+                        <div class="p-12">
+                            <p class="f-13 fw-400 lnh-18 gray">Trending in Turkey</p>
+                            <p class="f-15 fw-700 lnh-18 ">#SQUID</p>
+                            <p class="f-13 fw-400 lnh-18 gray">2,066 Tweets</p>
+                        </div>
+                        <div class="p-12 gray">
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                    </div>
+                    <div class="d-flex between a-center"> 
+                        <div class="p-12">
+                            <p class="f-13 fw-400 lnh-18 gray">Trending in Turkey</p>
+                            <p class="f-15 fw-700 lnh-18 ">#SQUID</p>
+                            <p class="f-13 fw-400 lnh-18 gray">2,066 Tweets</p>
+                        </div>
+                        <div class="p-12 gray">
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                    </div>
+                    <div class="d-flex between a-center"> 
+                        <div class="p-12">
+                            <p class="f-13 fw-400 lnh-18 gray">Trending in Turkey</p>
+                            <p class="f-15 fw-700 lnh-18 ">#SQUID</p>
+                            <p class="f-13 fw-400 lnh-18 gray">2,066 Tweets</p>
+                        </div>
+                        <div class="p-12 gray">
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="pl-6">
+                    <button class="blue fw-700 f-15 lnh-18">Show more</button>
+                </div>
+            </div>
+            <div class="bg-clr rad-15 p-12 mt-16">
+                <div class="mb-16">
+                    <h2 class="fw-700 f-20 lnh-23">Who to follow</h2>
+                </div>
+                <div>
+                    <div class="d-flex a-center between mb-16">
+                        <div class="d-flex">
+                            <div class="pp mr-12">
+                                <img src="./assets/img/thenewyorktime.png" alt="">
+                            </div>
+                            <div>
+                                <div class="d-flex a-center">
+                                    <div class="mr-4">
+                                        <p class="fw-400 lnh-18 f-15">The New York Times</p>
+                                    </div>
+                                    <div class="home_icon">
+                                        <img src="./assets/img/verifyed.svg" alt="">
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="gray f-15 fw-300 lnh-18">@nytimes</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn-follow">Follow</button>
+                        </div>
+                    </div>
+                    <div class="d-flex a-center between mb-16">
+                        <div class="d-flex">
+                            <div class="pp mr-12">
+                                <img src="./assets/img/thenewyorktime.png" alt="">
+                            </div>
+                            <div>
+                                <div class="d-flex a-center">
+                                    <div class="mr-4">
+                                        <p class="fw-400 lnh-18 f-15">The New York Times</p>
+                                    </div>
+                                    <div class="home_icon">
+                                        <img src="./assets/img/verifyed.svg" alt="">
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="gray f-15 fw-300 lnh-18">@nytimes</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn-follow">Follow</button>
+                        </div>
+                    </div>
+                    <div class="d-flex a-center between mb-16">
+                        <div class="d-flex">
+                            <div class="pp mr-12">
+                                <img src="./assets/img/thenewyorktime.png" alt="">
+                            </div>
+                            <div>
+                                <div class="d-flex a-center">
+                                    <div class="mr-4">
+                                        <p class="fw-400 lnh-18 f-15">The New York Times</p>
+                                    </div>
+                                    <div class="home_icon">
+                                        <img src="./assets/img/verifyed.svg" alt="">
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="gray f-15 fw-300 lnh-18">@nytimes</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn-follow">Follow</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <button class="blue fw-700 f-15 lnh-18">Show more</button>
+                </div>
+
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
